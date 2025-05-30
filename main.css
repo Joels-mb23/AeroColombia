@@ -1,0 +1,154 @@
+
+body{
+    background-color: #F2F2F2;
+    font-family: "DM Sans","sans-serif";
+    color: #2E2E2E;
+}
+
+/*NAVBAR*/
+#Navbar{
+    background-color: #2E2E2E;
+    font-family: "Roboto", "sans-serif";
+}
+#titulo1{
+    font-weight: 700;
+    color: aliceblue;
+    font-size: larger;
+}
+#navbarNav{
+    font-weight: 250;
+    text-transform: uppercase;
+}
+.nav-item .nav-link{
+    color: aliceblue;
+    transition: 0.5s ease;
+}
+.nav-link:hover{
+    color: #e67a7a;
+}
+
+/*INTRODUCCIÓN*/
+.avianca{
+    max-width: 85%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.intro{
+    background-color: #7e7d7d;
+}
+#titulo-intro{
+    text-transform: uppercase;
+    font-family:"Roboto", "sans-serif" ;
+    font-weight: 700;
+    color: #F2F2F2;
+}
+#texto-intro{
+    color: #F2F2F2;
+    font-weight: 250;
+}
+#btn1{
+    text-transform: uppercase;
+    font-family:"Roboto", "sans-serif" ;
+    font-weight: 600;
+    font-size: small;
+    margin-top: 5px;
+    color:aliceblue;
+}
+
+/*SECCIÓN TARJETAS*/
+#titulo-card{
+    font-family:"Roboto", "sans-serif";
+    font-weight: 600;
+}
+.card-border{
+    border: solid 3px #d8d8d8;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+.card{
+    background-color: #eaeaea;
+    text-align: center;
+    max-width: 16rem;
+}
+.card-title{
+    font-family: "Roboto", "sans-serif";
+    font-weight: 650;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 6px;
+}
+.card-text{
+    font-size: small;
+    margin-top: 14px;
+    font-weight: 350;
+}
+#titulo-tarjetas{
+    text-transform: uppercase;
+    font-family: "Roboto", "sans-serif";
+    font-size: larger;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+#texto-tarjetas{
+    font-weight: 300;
+}
+#Arrow{
+    font-size: 35px;
+    position: relative;
+    bottom: 12px;
+}
+.icon-card{
+    font-size: 40px;
+}
+
+/*SOBRE MÍ*/
+.about{
+    background-color: #e7e5e5;
+}
+#titulo-sobremi{
+    font-family: "Roboto", "sans-serif";
+    text-transform: uppercase;
+    font-size: larger;
+    margin-top: 40px;
+    font-weight: 600;
+}
+.card-about{
+    border: none;
+    border-radius: 0%;
+    background-color: #dedede;
+}
+.icon-about{
+    padding: 5px;
+    color:#DC3545;
+    transition: 0.5s;
+}
+.icon-about:hover{
+    color: #951f2b;
+}
+#img-about{
+    border-radius: 100%;
+}
+
+/*FOOTER*/
+#copyright, #diseño{
+    color: aliceblue;
+    font-size: small;
+    font-weight: 200;
+}
+.icon-footer{
+    color: aliceblue;
+    padding: 13px;
+    transition: 0.5s ease;
+}
+.icon-footer:hover{
+    color: #e67a7a;
+}
+.icons-footer{
+    margin-top: 13px;
+}

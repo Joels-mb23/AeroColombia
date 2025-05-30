@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroColombia</title>
+
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="shortcut icon" href="Img/Icon.png" type="image/x-icon">
+</head>
+<body>
+    <!--MENU-->
+    <nav class="navbar navbar-expand-md navbar-dark" id="Navbar">
+    <div class="container-fluid">
+        <a class="navbar-brand ps-4" href="#" id="titulo1">AeroColombia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation ">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-4" id="navbarNav">
+        <ul class="navbar-nav ms-auto pe-3">
+            <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#content">Descubre</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#sobremi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#footer">Síguenos</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!--INTRODUCCIÓN-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 intro">
+                <img src="Img/Avianca.png" class="avianca mt-md-4 mt-lg-0" width="440">
+                
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 intro pb-5"> 
+                <h3 class="text-center text-md-start px-5 pt-2 mt-5" id="titulo-intro">¡Te doy la bienvenida!</h3>
+                <p class="text-center text-md-start px-5 mt-3" id="texto-intro">Si te gusta mirar al cielo y soñar con volar, este espacio es para ti. ¡Prepárate para explorar los cielos de Colombia! </p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-center justify-content-md-start px-5 mt-3">
+                    <a href="#content"><button type="button" class="btn btn-danger" id="btn1">Empieza ahora</button></a>
+                </div>  
+
+            </div>            
+        </div>
+    </div>
+
+    <!--CONTENIDO - TARJETAS -->
+    <div id="content">
+        <h3 class="text-center" id="titulo-tarjetas"> <i class="bi bi-tag text-danger p-2"></i>Te puede interesar</h3>
+
+        <div class="container container-center">
+
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+
+                    <div class="card card-border my-3 my-sm-1 my-md-1 mx-auto mb-md-4 mb-lg-0">
+                        <i class="bi bi-clock-history text-danger mt-3 icon-card"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Historia y evolución</h5>
+                            <p class="card-text px-2 px-sm-3 px-md-2">Descubre cómo empezó todo: los primeros vuelos, las hazañas pioneras y la transformación del cielo colombiano a lo largo del tiempo.</p>
+                            <button type="button" class="btn btn-outline-danger" disabled>Próximamente</button>
+                        </div>
+                    </div>
+                </div>
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                    
+                    <div class="card card-border my-3 my-md-1 px-md-0 mx-auto">
+                        <i class="bi bi-airplane text-danger mt-3 icon-card"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Aerolíneas</h5>
+                            <p class="card-text px-3 p-lg-0">Conoce las compañías que han llevado a Colombia por el aire, desde gigantes históricos hasta nuevas propuestas que siguen surgiendo.</p>
+                            <button type="button" class="btn btn-outline-danger" disabled>Próximamente</button>
+                        </div>
+                    </div>
+                </div>    
+
+            <div class="col-12 col-sm-6 col-lg-3">
+                    
+                    <div class="card card-border my-3 my-md-1 mx-auto">
+                        <i class="bi bi-gear mt-3 icon-card text-danger"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Lo técnico (sin complicaciones)</h5>
+                            <p class="card-text px-sm-2 px-md-0">¿Te da curiosidad cómo funciona un avión o qué pasa dentro de un aeropuerto? Aquí lo explicamos fácil, sin tecnicismos.</p>
+                            <button type="button" class="btn btn-outline-danger" disabled>Próximamente</button>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="col-12 col-sm-6 col-lg-3">
+                    
+                    <div class="card card-border my-3 my-md-1 mx-auto">
+                        <i class="bi bi-lightbulb text-danger mt-3 text-danger icon-card"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">curiosidades</h5>
+                            <p class="card-text px-3 px-md-1">Datos raros, historias sorprendentes y anécdotas increíbles que no conocías sobre la aviación en Colombia. ¡Perfecto para volar con la imaginación! </p>
+                            <button type="button" class="btn btn-outline-danger" disabled>Próximamente</button>
+                        </div>
+                    </div>
+                </div>    
+
+            </div>
+        </div>
+    </div>
+
+    <!--SOBRE MÍ-->
+    <div id="sobremi">
+        <h3 class="text-center" id="titulo-sobremi"> <i class="bi bi-person pe-1 text-danger"></i> Sobre mí </h3>
+    </div>
+
+        <div class="container-fluid text-center mt-4" id="about">
+            <div class="row">
+                <div class="card mx-auto card-about" style="max-width: 100%">
+                    <div class="row g-0">
+
+                        <div class="col-12 col-md-3 m-auto">
+                            <img src="Img/Aboutme.jpg" class="img-fluid p-4" id="img-about" width="180">
+                        </div>
+
+                        <div class="col-12 col-md-9">
+                            <div class="card-body">
+                                <h5 class="card-title">¿Quién soy?</h5>
+                                <p class="card-text px-4">¡Hola! Me llamo Joel. Desde pequeño me han fascinado los aviones, los aeropuertos y todo lo que implica volar. Este sitio nace del deseo de compartir esa pasión y descubrir cómo la aviación ha marcado nuestro país. Aquí encontrarás historias, datos, curiosidades y mucho más. ¡Bienvenido a bordo!</p>
+                                <a href="#"><i class="bi bi-instagram icon-about"></i></a>
+                                <a href="#"><i class="bi bi-facebook icon-about"></i></a>
+                                <a href="#"><i class="bi bi-twitter-x icon-about"></i></a>
+                            </div>
+                        </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+
+     <!--FOOTER-->
+    <div class="container-fluid" id="footer">
+        <div class="row">
+            <div class="col-md-6 bg-dark text-center text-md-start">
+                <p class="mt-4 mt-md-3 mx-3 ms-md-5" id="copyright">Copyright ©2025. Todos los derechos reservados</p>
+            </div>
+            <div class="col-md-6 bg-dark text-center text-md-end">
+                <div class="icons-footer mb-3 mb-md-0 me-md-5 mt-md-3 d-block justify-content-center">
+                    <a href="#"> <i class="bi bi-instagram icon-footer"></i></a>
+                    <a href="#"> <i class="bi bi-facebook icon-footer"></i></a>
+                    <a href="#"> <i class="bi bi-twitter-x icon-footer"></i></a>
+                    <a href="#"> <i class="bi bi-tiktok icon-footer"></i></a>
+                    <a href="#"> <i class="bi bi-youtube icon-footer"></i></a>
+                </div>         
+            </div> 
+        </div>
+    </div> 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
